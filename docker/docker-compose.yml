@@ -22,7 +22,7 @@ services:
     ports:
       - "3100:3100"
     environment:
-      DATABASE_URL: postgres://paperclip:paperclip@db:5432/paperclip
+      DATABASE_URL: 'postgresql://neondb_owner:npg_auyFnRd2XQj9@ep-damp-sky-ac0a31iy-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
       PORT: "3100"
       SERVE_UI: "true"
       PAPERCLIP_DEPLOYMENT_MODE: "authenticated"
